@@ -1,0 +1,31 @@
+# emacs backup files
+*~
+\#*\#
+
+# build directories
+[Bb]uild*/
+BUILD*/
+[Dd]ebug*/
+DEBUG*/
+[Rr]elease*/
+RELEASE*/
+[xX]64*/
+doc/
+
+# other directories
+DataBinding/
+Asm/
+
+# binaries
+*.o
+*.O
+*.a
+*.A
+*.obj
+*.OBJ
+*.lib
+*.LIB
+*.dll
+*.DLL
+*.exe
+*.EXE

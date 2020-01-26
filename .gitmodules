@@ -1,0 +1,3 @@
+[submodule "cmake_utilities"]
+	path = cmake_utilities
+	url = https://github.com/sabjohnso/cmake_utilities_boostrap.git
