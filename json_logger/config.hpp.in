@@ -1,0 +1,15 @@
+#pragma once
+
+namespace JSONLogger::Config
+{
+  struct Info {
+    struct Version {
+      static constexpr int major = ${PROJECT_VERSION_MAJOR};
+      static constexpr int minor = ${PROJECT_VERSION_MINOR};
+      static constexpr int patch = ${PROJECT_VERSION_PATCH};
+    };
+    static constexpr char install_schema_location [] = "${CMAKE_INSTALL_DATAROOTDIR}}/json_logger/jason_logger.json";
+    static constexpr char build_schema_location [] = "${json_logger_SOURCE_DIR}/json_logger/json_logger.json";
+  };
+  
+} // end of namespace JSONLogger::Config
